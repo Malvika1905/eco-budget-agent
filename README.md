@@ -1,5 +1,7 @@
 # Eco-Budgeting Agent — Microsoft Agents League Hackathon
 
+**Live Demo Dashboard**: [https://eco-budget-agent-ubymamptwmehpuyomh8ma8.streamlit.app/](https://eco-budget-agent-ubymamptwmehpuyomh8ma8.streamlit.app/)
+
 An intelligent corporate compliance auditor designed for the **Reasoning Agents** track, utilizing **Microsoft Foundry IQ** to enforce multi-dimensional ESG policies, audit carbon projection caps, and prevent supply chain concentration risk.
 
 ---
