@@ -227,7 +227,7 @@ with col1:
     if decision == "APPROVE" and carbon_ok and diversity_ok:
         st.metric("Agent Decision", "APPROVE")
     elif decision == "APPROVE_ALTERNATIVE" or (carbon_ok and diversity_ok):
-        st.metric("Agent Decision", "APPROVE ALT" if shift_pct > 0 else "APPROVE_ALTERNATIVE")
+        st.metric("Agent Decision", "APPROVE ALT")
     else:
         st.metric("Agent Decision", "REJECT / PIVOT")
 
