@@ -1,18 +1,18 @@
-# 🌿 Eco-Budgeting Agent — Microsoft Agents League Hackathon
+# Eco-Budgeting Agent — Microsoft Agents League Hackathon
 
 An intelligent corporate compliance auditor designed for the **Reasoning Agents** track, utilizing **Microsoft Foundry IQ** to enforce multi-dimensional ESG policies, audit carbon projection caps, and prevent supply chain concentration risk.
 
 ---
 
-## 🚀 Track & Integration Summary
+## Track & Integration Summary
 
-* **Hackathon Track**: `🧠 Reasoning Agents (Microsoft Foundry)`
+* **Hackathon Track**: `Reasoning Agents (Microsoft Foundry)`
 * **Intelligence Layer Integration**: `Foundry IQ` (Enforces cited, grounded compliance guidelines for procurement and retrieves live supplier ESG statistics)
 * **Reasoning Framework**: Stateful Chain-of-Thought (CoT) graph built with **LangGraph**
 
 ---
 
-## 💡 Core Capabilities
+## Core Capabilities
 
 1. **Stateful Graph Reasoning**: Executes a sequential 8-stage audit path where every node outputs standard-output logs and state modifications.
 2. **Predictive Carbon Modeling**: Runs a linear velocity projection model assessing historical quarterly emission trends to forecast quarter-end footprints.
@@ -22,7 +22,7 @@ An intelligent corporate compliance auditor designed for the **Reasoning Agents*
 
 ---
 
-## 🛠️ Graph Architecture
+## Graph Architecture
 
 The agent's decision-making flow is governed by a stateful graph:
 
@@ -41,7 +41,7 @@ graph TD
 
 ---
 
-## 💻 Streamlit Explainability Dashboard
+## Streamlit Explainability Dashboard
 
 The dashboard provides a premium, interactive interface for audit review and mock scenarios:
 * **What-If Simulator**: A slider to shift order allocations to Supplier B (*GreenCore Materials*) and watch the projected emissions and concentration values recalculate live.
@@ -50,7 +50,7 @@ The dashboard provides a premium, interactive interface for audit review and moc
 
 ---
 
-## ⚙️ Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -70,7 +70,7 @@ python eco_budget_agent.py
 
 ---
 
-## 📝 Submission Checklist (Deadline: June 14, 2026)
+## Submission Checklist (Deadline: June 14, 2026)
 
 Before clicking submit on the Agents League platform:
 1. **Initialize Git & Make Public**:
