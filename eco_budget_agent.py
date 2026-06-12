@@ -176,6 +176,15 @@ def supplier_benchmark_tool(category: str, exclude_supplier_id: str) -> list[dic
             "share_of_wallet_pct": 15.0,  # 15% of orders
             "citation": "Foundry IQ › Supplier Catalogue (category: electronics)",
         },
+        {
+            "supplier_id": "SUP-D-099",
+            "name": "Global Cargo Partners",
+            "esg_score": 55,              # Fails min ESG score limit of 65
+            "cost_delta_pct": -12.0,      # 12% cheaper (tempting but non-compliant)
+            "carbon_kg_per_unit": 2.4,    # High carbon footprint
+            "share_of_wallet_pct": 35.0,  # 35% of orders
+            "citation": "Foundry IQ › Supplier Catalogue (category: electronics)",
+        },
     ]
 
 
